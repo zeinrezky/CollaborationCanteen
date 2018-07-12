@@ -22,6 +22,9 @@
                                 <rect key="frame" x="168" y="389" width="38" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="qoG-wC-2Be" kind="show" id="FeI-sY-edd"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="pXn-DH-9uU">
                                 <rect key="frame" x="10" y="98" width="355" height="128"/>
@@ -47,7 +50,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079" y="33"/>
+            <point key="canvasLocation" x="1382" y="84"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dqg-Lg-MX1">
@@ -72,7 +75,7 @@
             <objects>
                 <viewController id="qoG-wC-2Be" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mB1-5Y-0mv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZ1-2d-84r">
@@ -93,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oHZ-sM-wf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944.79999999999995" y="132.68365817091455"/>
+            <point key="canvasLocation" x="2175" y="84"/>
         </scene>
     </scenes>
     <resources>
